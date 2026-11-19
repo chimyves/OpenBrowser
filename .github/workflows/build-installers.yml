@@ -11,7 +11,7 @@ on:
       release_tag:
         description: 'Release tag to create, for example v1.0.28'
         required: true
-        default: 'v1.0.28'
+        default: 'v1.0.29-fork.1'
       prerelease:
         description: 'Mark the GitHub Release as a prerelease'
         required: false
@@ -38,7 +38,7 @@ env:
   OPENBROWSER_PACKAGE_VARIANT: with-kernel
   OPENBROWSER_BUNDLE_KERNEL: 'true'
   RELEASE_NOTES: |
-    ## OpenBrowser **v1.0.28**
+    ## OpenBrowser **v1.0.29-fork.1**
 
     - 环境数据安全与稳定性改进。
     - 代理和自动化可靠性优化。
